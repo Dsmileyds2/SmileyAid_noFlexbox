@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+        <meta name="description" content="SmileyAid - Your Trusted Web Design Agency. Crafting beautiful, responsive, and user-friendly websites that drive success for your business.">
+        <meta name="keywords" content="SmileyAid, about page, web design, web development, responsive design, user-friendly, website agency, web solutions, website design, business website">
+        <meta name="author" content="DaJuan Smiley">
+        <title>SmileyAid Web About us</title>
+        <style>
+            .headline {
+                font-family: 'Roboto', sans-serif;
+                padding: 20px;
+                margin: 10px;
+                display: block;
+            }
+            .unique-head {
+                color: #FBC837;
+            }
+            #content-container{
+                position: relative;
+                top: 10%;
+                width: 700px;
+                display: inline-block;
+                font-size: 20px;
+                margin: 30px;
+                text-align: left;
+            }
+            .about-text{
+                font-size: 1.1em;
+            }
+            @media (min-width: 401px)and (max-width: 700px) {
+                
+                #content-container{
+                position: relative;
+                top: 10%;
+                width: auto;
+                display: inline-block;
+                font-size: 20px;
+                margin-bottom: 50px;
+            }
+            .about-text{
+                font-size: 1em;
+            }
+            }
+            @media (max-width: 400px) {
+                .headline {
+                    font-family: 'Roboto', sans-serif;
+                    height: auto;
+                    width: auto;
+                    padding: 20px;
+                    margin: 10px;
+                        margin-top: 100px;
+                    display: inline-block;
+                }
+                #content-container{
+                position: relative;
+                top: 10%;
+                width: auto;
+                display: inline-block;
+                font-size: 20px;
+                margin-bottom: 50px;
+            }
+            .about-text{
+                font-size: .85em;
+            }
+            }
+        </style>
+        <link rel="stylesheet"
+        href="../css/webDesign_style.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="page-container">
+            <header id="head-wrap" class="heading">
+                <div id="site-menu" class="menu-box">
+                    <div id="brand-name">
+                        <img id="site-logo" src="../assets/transparent_logo.png" alt="smiley aid logo, a yellow smily face with a white helping hand">
+                        <h1 id="site-name">SmileyAid</h1>
+                    </div>
+                    <form class="button" action="../index.html"><button class="home-button" type="submit">Home</button></form>
+                    <form class="button" action="./about.html"><button class="about-button" type="submit">About US</button></form>
+                    <form class="button" action="./contact.html"><button class="contact-button" type="submit">Contact US</button></form>
+                    <input type="checkbox" id="expand-toggle" />
+                    <label for="expand-toggle" id="expand-btn"><div class="menu-bar"></div><div class="menu-bar"></div><div class="menu-bar"></div></label>
+                    <div class="popup-menu">
+                        <form class="mobile-button" action="../index.html"><button class="mobile-home-button" type="submit">Home</button></form>
+                        <form class="mobile-button" action="./about.html"><button class="mobile-about-button" type="submit">About US</button></form>
+                        <form class="mobile-button" action="./contact.html"><button class="mobile-contact-button" type="submit">Contact US</button></form>
+                    </div>
+                </div>
+            </header>
+            <div id="content-wrap">
+                <h1 class="headline">About <span class="unique-head">SmileyAid</span></h1>
+                <div id="content-container">
+                    <div id="about-container">
+                        <div class="about-text">
+                        <p class="text">Embarking on a digital journey? Let SmileyAid be your guide. In a world brimming with options, choosing a partner to illuminate your online presence can be overwhelming. But here's where we stand out: We're as invested in your dream as you are. Our designs aren't just aesthetic compositions; they're crafted with an understanding of your aspirations and a desire for your security in the digital realm. With SmileyAid, every collaboration is a testament to our commitment and your vision. Together, let's illuminate the digital horizon.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <footer>
+                <p id="tag-line">Design. Deliver. Dazzle. SmileyAid.</p>
+                <div class="copy">Copyright &copy; 2023 SmileyAid. All Rights Reserved.</div>
+            </footer>
+        </div>
+    </body>
+</html>
