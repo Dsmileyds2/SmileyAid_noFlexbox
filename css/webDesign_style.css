@@ -41,6 +41,11 @@ html,body
     left: 10px;
     margin-left: 10px;
 }
+.home-button:hover, .about-button:hover, .contact-button:hover{
+    background-color: #3a37fb;
+    height: 55px;
+    width: 105px;
+}
 .home-button, .about-button, .contact-button{
     height: 50px;
     width: 100px;
@@ -60,13 +65,13 @@ html,body
 #expand-btn {
     display: none;
     margin-top: 12px;
-    padding: 5px 11px;
+    padding: 10px 21px;
     background-color: #FBC837;
     border: 2px solid;
     border-radius: 3px;
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 30px;
+    right: 30px;
     cursor: pointer;
 }
 .popup-menu {
@@ -86,8 +91,8 @@ html,body
 .menu-bar {
     background-color: black;
     width: 20px;
-    height: 5px;
-    margin: 3px;
+    height: 6px;
+    margin: 5px;
 }
 .mobile-button{
     margin: 30px;
@@ -101,8 +106,8 @@ html,body
     cursor: pointer;
     background-color: #6A0DAD;
     color: white;
-    height: 30px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 #content-wrap {
     text-align: center;
@@ -151,7 +156,7 @@ footer {
     }
     #site-logo {
         height: auto;
-        width: 3em;
+        width: 5em;
         display: inline-block;
         position: relative;
         top: .4em;
@@ -163,10 +168,10 @@ footer {
         color: white;
         display: inline-block;
         position: relative;
-        top: -1.2em;
+        top: -.5em;
         left: 10px;
         margin-left: 10px;
-        font-size: 1em;
+        font-size: 2.5em;
     }           
     .button {
         display: none;
@@ -175,20 +180,28 @@ footer {
         display: inline-block;
     }
     .mobile-button{
-        margin: 30px;
+        margin: 40px;
         margin-left: 0;
+    }
+    .mobile-home-button:active, .mobile-about-button:active, .mobile-contact-button:active{
+        background-color: #3a37fb;
+        height: 75px;
+        width: 155px;
+        border-radius: 25%;
     }
     .mobile-home-button, .mobile-about-button, .mobile-contact-button {
         display: block;
         text-align: center;
         position: relative;
-        top: 3vh;
-        left: 10vw;
+        top: 4vh;
+        left: 17vw;
         cursor: pointer;
         background-color: #6A0DAD;
         color: white;
-        height: 30px;
-        width: 100px;
+        height: 70px;
+        width: 150px;
+        font-size: 1.5em;
+        border-radius: 20%;
     }
     #content-wrap {
         text-align: left;
@@ -202,12 +215,12 @@ footer {
     #tag-line {
         display: inline-block;
         position: relative;
-        top: 1%;
-        left: 1%;
+        bottom: 1vh;
+        left: 17vw;
         margin-bottom: 10px;
         margin-right: 20px;
         color: #6A0DAD;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     footer {
         position: absolute;
@@ -219,11 +232,14 @@ footer {
         background-color: #FBC837;
         border: 5px solid #6A0DAD;
         display: inline-block;
-        font-size: 10px; 
+        font-size: 20px; 
         margin-top: 20em; 
     }
     .copy{
-        font-size: 1.25em;
+        font-size: .9em;
+        position: relative;
+        bottom: 1vh;
+        display: inline-block;
     }
 }
 

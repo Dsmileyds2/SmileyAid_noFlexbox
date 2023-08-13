@@ -26,7 +26,7 @@
                 display: inline-block;
                 font-size: 20px;
                 margin-bottom: 50px;
-                margin-top: 100px;
+                margin-top: 10px;
             }
             .content-container1 {
 		        display: inline-block;
@@ -34,7 +34,6 @@
                 width: 700px;
                 margin: 50px;
                 position: relative;
-                top: -90px;
 		    }
 		    .content-container2 {
 		        display: inline-block;
@@ -122,13 +121,16 @@
             }
             @media (max-width: 980px) {
                 .headline {
-                font-family: 'Roboto', sans-serif;
-                height: auto;
-                width: auto;
-                padding: 20px;
-                margin: 10px;
-                    margin-top: 100px;
-                display: inline-block;
+                    font-family: 'Roboto', sans-serif;
+                    height: auto;
+                    width: 200;
+                    padding: 20px;
+                    margin: 10vw;
+                        margin-top: 200px;
+                        margin-bottom: 20px;
+                    display: inline-block;
+                    font-weight: 100;
+                    font-size: 2.4em;
                 }
                 .content-container1 {
 		            display: inline-block;
@@ -137,6 +139,7 @@
                     position: relative;
                     text-align: center;
                     margin-left: 30px;
+                    left: 10vw;
 		        }
 		        .content-container2 {
 		            display: inline-block;
@@ -145,24 +148,33 @@
                     position: relative;
                     text-align: center;
                     margin-left: 30px;
+                    left: 10vw;
 		        }
                 .creative-img{
 		            display: block;
 		            float: none;
                     position: sticky;
-                    left: 5px;
+                    left: 28vw;
                     margin-left: 50px;
 		        }
 		        .canstruction-img{
 		            display: block;
 		            float: none;
                     position: sticky;
-                    left: 5px;
+                    left: 28vw;
                     margin-left: 50px;
+		        }
+                .subheader{
+		            font-size: 1.4em;
+		            display: inline-block;
+                    height: auto;
+                    width: auto;
+                    position: relative;
+                    right: 4.4vw;
 		        }
                 .creative-text, .construction-text{
                     display: inline-block;
-                    font-size: 1em;
+                    font-size: 1.1em;
                 }
             }
             
@@ -225,8 +237,8 @@
                 </div>
             </div>
             <footer>
+                <div class="copy">Copyright &copy; 2023 SmileyAid. All Rights Reserved.</div> 
                 <p id="tag-line">Design. Deliver. Dazzle. SmileyAid.</p>
-                <div class="copy">Copyright &copy; 2023 SmileyAid. All Rights Reserved.</div>  
             </footer>
         </div>
     </body>
